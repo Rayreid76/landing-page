@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% load static %}
+	<title>Northwest Coding</title>
+	<link rel="shortcut icon" href="">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="{% static 'resume/css/style.css' %}">
+	<link rel="stylesheet" href="{% static 'resume/css/fixed.css' %}">
+	<link rel="stylesheet" href="{% static 'resume/css/lightbox.css' %}">
+</head>
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+<!--- Start Home Section -->
+<div id="home">
+
+<!--- Navigation -->
+<nav class="navbar navbar-expand-md fixed-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src="" alt=""></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="#home">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#about">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#testimonials">Portfolio</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contact">Contact</a>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
+<!--- End Navigation -->
+
+<!--- Start Landing Page Image -->
+<div class="landing">
+	<div class="home-wrap">
+		<img src="{% static 'resume/img/landing.png' %}" alt="Northwest forrest">
+	</div>
+</div>
+<!--- End Landing Page Image -->
+
+<!--- Start Landing Page Caption -->
+<div class="caption center-block text-center">
+	<h3>Nest Responsive Bootstrap Theme</h3>
+	<a class="btn btn-outline-light" href="#about">Get Started</a>
+</div>
+<!--- End Landing Page Caption -->
+
+</div>
+<!--- End Home Section -->
+
+<!--- Start About Section -->
+<div id="about" class="offset">
+
+<!--- Start Jumbotron -->
+<div class="jumbotron">
+
+	<h3 class="heading">About</h3>
+	<div class="heading-underline"></div>
+
+<div class="row narrow">
+
+	<div class="col-md-4">
+		<div class="about text-center">
+			<i class="fas fa-code fa-3x"></i>
+			<h3>Coding Experience</h3>
+			<i class="fab fa-python fa-2x"></i>
+			<i class="fab fa-html5 fa-2x"></i>
+			<i class="fab fa-css3-alt fa-2x"></i>
+			<i class="fas fa-database"></i>
+			<p>Python, .Net, HTML, CSS3, Jquery, MySql, Flask, Django, Asp.MVC</p>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="about text-center">
+			<i class="fas fa-school fa-3x"></i>
+			<h3>Education</h3>
+			<p>I started with an interest in learning about coding languages for understanding how the digital world works. During my research Python was a language that caught my interest. I completed a five month full imersion course covering front-end and back-end programming.</p>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="about text-center">
+			<i class="fas fa-briefcase fa-3x"></i>
+			<h3>Open to Opportunity</h3>
+			<p>Willing. Able. Ready to go.  I build the little things that no one notices but everyone can't live without.  I am looking for interesting coding projects working alongside cool teams. If you are doing amazing things for the greater good I would love to connect. Shoot me a connection request and let's talk!</p>
+		</div>
+	</div>
+
+</div> <!--- End Row -->
+</div><!--- End Jumbotron -->
+</div>
+<!--- End About Section -->
+
+
+
+<div class="narrow text-center padding">
+	<p class="lead">For coding opportunity</p>
+	<div class="center-block">
+		<a class="btn btn-secondary" href="#contact">Get in Touch</a>
+	</div>
+</div>
+
+</div>
+<!--- End Portfolio Section -->
+
+<!--- Start Testimonials Section -->
+<div id="testimonials" class="offset">
+
+<div class="jumbotron">
+
+	<h3 class="heading">Portfolio</h3>
+	<div class="heading-underline"></div>
+
+<div class="row narrow">
+
+	<div class="col-md-6">
+		<div class="card text-center">
+			<img class="card-img-top" src="{% static 'resume/img/quote.jpg' %}" alt="Quote web app">
+			<div class="card-body">
+				<h4>Quote Board</h4>
+				<p>In this web app i used Python/Django to construct the MVC. Html styled with Bootstrap with images from Pexel.com. MySql is used for the database with model validation to prevent sql attacks. This app is hosted on AWS services using Ubuntu server.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-6">
+		<div class="card text-center">
+			<img class="card-img-top" src="" alt="">
+			<div class="card-body">
+				<h4></h4>
+				<h5></h5>
+				<p></p>
+			</div>
+		</div>
+	</div>
+
+</div> <!--- End Row -->
+</div> <!--- End Jumbotron -->
+
+</div>
+<!--- End Testimonials Section -->
+
+<!--- Start Contact Section -->
+<div id="contact" class="offset">
+
+<div class="container-fluid footer">
+<div class="row">
+
+	<div class="col-md-5">
+		<img src="" alt="">
+		<p>At our core is a collection of design and development solutions that represent everything your business needs to compete in the modern marketplace.</p>
+		<strong>Location</strong>
+		<p>898 Delsie Dr.<br>Grants Pass, Or. 97527</p>
+		<strong>Contact Info</strong>
+		<p>(541) 244-8998<br>raymond.reid@northwestcoding.net</p>
+		<a href="https://github.com/Rayreid76"><i class="fab fa-github-square"></i></a>
+		<a href="#"><i class="fab fa-gitlab"></i></a>
+		<a href="#"><i class="fab fa-google-plus-square"></i></a>
+		<a href="http://www.linkedin.com/in/rayreid97527"><i class="fab fa-linkedin"></i></a>
+	</div>
+
+	<div class="col-md-7">
+		<h3>Contact Us</h3>
+
+		<form id="contact-form" method="POST" action="https://formspree.io/raymond.reid@northwestcoding.net">
+            {% csrf_token %}
+
+			<div class="messages">
+            </div>
+			<div class="controls">
+
+				<div class="form-group">
+					<input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name." required="required">
+				</div>
+
+				<div class="form-group">
+					<input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email." required="required">
+				</div>
+
+				<div class="form-group">
+					<textarea id="form_message" name="text" class="form-control" placeholder="Add your message." rows="4" required="required"></textarea>
+				</div>
+
+				<input type="submit" class="btn btn-outline-light" value="Send message">
+
+			</div>
+
+		</form>
+
+	</div>
+
+	<hr class="socket">
+	&copy; Northwest Coding
+
+</div> <!--- End Row -->
+</div> <!--- End Container Footer -->
+
+</div>
+<!--- End Contact Section -->
+
+
+<!--- Script Source Files -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+<!--- End of Script Source Files -->
+</body>
+</html>
